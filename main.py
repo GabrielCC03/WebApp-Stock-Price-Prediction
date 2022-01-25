@@ -121,6 +121,11 @@ stockDisplay = html.Div(children=[
     id = "container",
 )
 
+#*--------------------------------------------------------------------------------
+#*Callbacks
+
+
+
 
 front.layout = html.Div(children=[title,stockInputs,stockDisplay])
 
